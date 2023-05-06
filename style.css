@@ -1,0 +1,54 @@
+html,
+body,
+main {
+  height: 100%;
+}
+
+.calc-main {
+  width: 25%;
+  margin: auto;
+  height: 50%;
+  border: 3px solid #a7abae;
+  /* box-shadow: 0px 1px 0px 3px #b6b9bb; */
+  /* background-color: #; */
+  padding: 21px;  
+ 
+}
+
+.display {
+  font-size: 30px;
+  padding: 20px 10px;
+  text-align: right;
+  border: 2px solid black;
+  height: 10%;
+  background-color: black;
+  color: white;
+}
+
+.input-keys table {
+  width: 100%;
+  height: 90%;
+}
+
+.input-keys td {
+  width: 25%;
+}
+
+td input {
+  cursor: default;
+  padding: 0;
+  border: none;
+  height: 8vh;
+  font-size: 30px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+td input:hover{
+  background-color: cadetblue;
+}
+
+#equalBtn{
+  background-color: rgb(65, 93, 232);
+}
